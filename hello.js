@@ -1,5 +1,6 @@
-let x = document.getElementsByClassName('list-group-item');
-x[2].style.backgroundColor='green';
-for(let i =0;i<x.length;i++){
-    x[i].style.fontWeight='bold';
-}
+change=document.getElementsByClassName('new');
+change[0].style.color="red";
+
+let changeagain=document.getElementsByTagName('li');
+changeagain[4].style.paddingLeft='23px';
+changeagain[4].style.textdecoration ="none";
